@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+    <head>
+        <title>Suuret Filosofien Sitaatit</title>
+        <!--Тут можно создать стили для всех одинаковых элементов
+        <style>
+            body {background-color:rgb(230, 176, 213);}
+        </style>-->
+
+        <!--Или создать ссылку на CSS файл-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!--Заголовки и фон текста-->
+        <h1>Tiedän, etten tiedä mitään. Sokrates</h1>
+        <h2 style="font-family:verdana;">Tunne itsesi. Sokrates</h2>
+        <h3 style="font-family:courier;">Viisaus alkaa ihmettelystä. Sokrates</h3>
+        <h4 style="background-color:rgba(6, 163, 58, 0.5);"><!--0.5 прозрачность 50%-->Totuus on yksinkertaisuudessa. Aristoteles</h4>
+        <h5 style="background-color:rgb(231, 12, 12);">Älä tee pahaa. Hippokrates</h5>
+        <h6>Onni on elämän tarkoitus ja päämäärä. Aristoteles</h6>
+
+        <!--Параграфы (абзацы)-->
+        <p>Hyve on tietoa. Sokrates</p>
+        <p>Ihminen on kaikkien asioiden mitta. Protagoras</p>
+
+        <!--Ссылка-->
+        <a href="https://www.w3schools.com">Aika on liikkuva kuva ikuisuudesta. Platon</a>
+
+        <!--Картинка-->
+        <img src="images/roden.jpg" alt="roden" width="200" height="150">
+
+        <!--Параграф со стилем-->
+        <p style="color:#2f10dd;">Musiikki on maailmankaikkeuden sielu. Pythagoras</p>
+
+        <!--Всплывающая подсказка-->
+        <p title="Platon">Oikeudenmukaisuus on hyve.</p>
+
+        <!--Еще больший заголовок-->
+        <h1 style="font-size:60px;">Liike on elämää. Aristoteles</h1>
+
+        <!--Тематические разрывы и цвет текста-->
+        <h1>Thales</h1>
+        <p style="color:rgb(161, 2, 153);">Tieto on voimaa.</p>
+        <hr>
+        <h2>Herakleitos</h2>
+        <p style="color:hsl(189, 79%, 50%);">Kaikki virtaa, kaikki muuttuu.</p>
+        <hr>
+
+        <!--Перенос строки-->
+        <p>Mitä vähemmän sanoja,<br>sitä paremmin sanottu.<br>Cicero</p>
+
+        <!--Стихотворение в рамочке-->
+        <pre style="border:2px solid Tomato;">
+            Kaiken mitta on ihminen. Protagoras
+          
+            Olla on olla havaittavissa. Parmenides
+          
+            Järki on tiedon tärkein lähde. Aristoteles
+          
+            Rakasta totuutta, mutta anna anteeksi virhe. Voltaire
+          </pre>
+
+        <!--Размер текста-->
+        <h1 style="font-size:300%;">Hiljaisuus on kultaa. Pythagoras</h1>
+        <p style="font-size:160%;">Työ voittaa kaiken. Hesiodos</p>
+
+        <!--Выравнивание текста-->
+        <h1 style="text-align:center;">Yhtenäisyys on voimaa. Herakleitos</h1>
+        <p style="text-align:center;">Kohtuullisuus on parasta kaikessa. Kleobulos</p>
+
+        <!--Форматирование текста-->
+        <!--Жирный-->
+        <b>Vain hyve tekee ihmisen onnelliseksi.</b>
+        <strong>Seneca</strong>
+
+        <!--Курсив-->
+        <i>Meistä tulee sitä, mitä teemme.</i>
+        <em>Aristoteles</em>
+
+        <!--Уменьшение шрифта-->
+        <small>Mielihyvä on onnellisen elämän alku ja loppu. Epikuros</small>
+
+        <!--Выделенный текст-->
+        <p>Kaikki ihmiset pyrkivät <mark>luonnostaan</mark> tietoon. Aristoteles</p>
+
+        <!--Зачеркнутый и подчеркнутый текст-->
+        <p>Totuus <del>ei pelkää</del> <ins>tutkimista</ins>. Terentius</p>
+
+        <!--Смещение вниз и вверх-->
+        <p>Viisaus <sub>on</sub> tietää,</p>
+        <p>mitä <sup>ei</sup> tiedä. Kungfutse</p>
+
+        <!--Цитаты-->
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        <!--Аббривеатура-->
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+        <!--Адрес-->
+        <address>
+            Written by philosophers.<br>
+            Visit them at:<br>
+            Internet
+        </address>
+
+        <!--Название работы-->
+        <p><cite>Suuret Filosofien Sitaatit</cite> according information from Internet.</p>
+
+        <!--Текст справа налево-->
+        <bdo dir="rtl">Suuret Filosofien Sitaatit</bdo>
+
+        <!---->
+    </body>
+</html>
+
+
+
+<!--CSS tiedosto
+body {
+    /*Цвет фона*/
+    background-color: rgb(230, 176, 226);
+
+    /*Границы*/
+    border: 2px solid powderblue;
+
+    /*Отступы*/
+    padding: 10px;
+  }
+-->

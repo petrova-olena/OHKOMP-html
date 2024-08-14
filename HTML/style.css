@@ -1,0 +1,10 @@
+body {
+    /*Цвет фона*/
+    background-color: rgb(230, 176, 226);
+
+    /*Границы*/
+    border: 2px solid powderblue;
+
+    /*Отступы*/
+    padding: 10px;
+  }
